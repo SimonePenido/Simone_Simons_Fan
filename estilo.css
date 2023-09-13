@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Cinzel', serif;
     background-image: url(imagens/bodyfundo.png);
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
@@ -20,21 +20,21 @@ body {
     width: 80%;
     text-align: center;
     color: white;
-    letter-spacing: .7em;
+    letter-spacing: 1em;
 }
 
 .hero-content h1 {
-    font-size: 56px;
-    text-shadow: 2px 2px 2px black;
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px rgb(163, 163, 163);
     text-transform: uppercase;
     margin-bottom: 0;
 }
 
 .hero-content p {
     background-color: rgba(0, 0, 0, .7);
-    font-size: 18px;
+    font-size: 1.1rem;
     display: inline-block;
-    padding: 16px;
+    padding: .8rem;
     border-bottom: 2px solid;
     text-align: center;
     font-family: Arial;
@@ -55,17 +55,17 @@ body {
 
 .hero nav a {
     background-color: rgba(0, 0, 0, .3);
-    padding: 16px;
+    padding: .8rem;
     display: block;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: .8rem;
     letter-spacing: 2px;
 }
 
 .hero nav a:hover {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(112, 110, 110, 0.5);
 }
 
 main {
@@ -88,12 +88,19 @@ article h2 {
     margin-top: 0;
     color: #fff;
     letter-spacing: .09em;
+    font-size: 1.6rem;
 }
 
-article p{
+article p {
     font-family: Arial;
+    font-size: 1rem;
     text-align: justify;
     letter-spacing: .08rem;
+    line-height: 1.5rem;
+}
+
+article a {
+    text-decoration: none;
 }
 
 .btn {
@@ -105,15 +112,44 @@ article p{
     width: fit-content;
 }
 
-.div_icons{
+.div_icons {
     display: flex;
     justify-content: center;
 }
 
-.div_icons img{
+.div_icons img {
     align-items: center;
     padding: 1rem;
     width: 3rem;
+}
+
+@media screen and (min-width: 48em) {
+    /*768px maior que*/
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_nav ul {
+        margin-right: 2em;
+        font-size: .5em;
+    }
+
+    .header_nav li {
+        display: inline-flex;
+    }
+
+    .header {
+        text-align: center;
+        margin: auto;
+    }
+
+    .hero nav a {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
 }
 
 .rodape {

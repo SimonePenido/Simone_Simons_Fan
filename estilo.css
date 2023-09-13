@@ -32,7 +32,7 @@ body {
 
 .hero-content p {
     background-color: rgba(0, 0, 0, .7);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     display: inline-block;
     padding: .8rem;
     border-bottom: 2px solid;
@@ -101,6 +101,8 @@ article p {
 
 article a {
     text-decoration: none;
+    color: rgba(0, 0, 0, .7);
+    font-weight: 800;
 }
 
 .btn {
@@ -123,6 +125,11 @@ article a {
     width: 3rem;
 }
 
+.div_icons img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
 @media screen and (min-width: 48em) {
     /*768px maior que*/
 
@@ -134,7 +141,7 @@ article a {
 
     .header_nav ul {
         margin-right: 2em;
-        font-size: .5em;
+        font-size: .7em;
     }
 
     .header_nav li {
@@ -156,7 +163,8 @@ article a {
     color: white;
     background-color: #6b6c68;
     text-align: center;
-    padding: 30px;
-    text-shadow: 2px 2px 2px black;
+    padding: 1.8rem;
+    text-shadow: 2px 2px 3px black;
     letter-spacing: 2px;
+    font-size: .9rem;
 }

@@ -226,7 +226,8 @@ article a {
     background-image: url("imagens/simone_simons_image.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 50em;
+    height: 30em;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
